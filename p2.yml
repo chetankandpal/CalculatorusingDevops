@@ -1,9 +1,9 @@
 ---
-- name: Deploy a jar file
+- name: Pull Docker Image
   hosts: ubuntu18
   remote_user: ck
   tasks:
-    - name: Copy jar file to home directory
-      copy:
-        src: ./target/CalculatorDevOps-1.0-SNAPSHOT-jar-with-dependencies.jar
-        dest: ~/
+    - name: Pull CalculatorusingDevOps Image from Docker Hub
+      docker_image:
+        name: docker123chetan/calculatorimage
+        source: pull
