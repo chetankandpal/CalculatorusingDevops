@@ -4,7 +4,6 @@
   remote_user: ck
   become: yes
   become_method: sudo
-  become_password: "123"
   tasks:
     - name: Pull CalculatorusingDevOps Image from Docker Hub
       docker_image:
