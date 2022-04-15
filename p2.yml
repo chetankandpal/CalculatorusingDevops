@@ -4,8 +4,8 @@
   remote_user: ck
   become: yes
   become_method: sudo
-   vars:
-   ansible_become_pass: "123"
+  vars:
+  ansible_become_pass: "123"
   tasks:
     - name: Pull CalculatorusingDevOps Image from Docker Hub
       docker_image:
