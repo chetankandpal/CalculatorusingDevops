@@ -5,7 +5,7 @@
   become: yes
   become_method: sudo
   vars:
-  ansible_become_pass: "123"
+  ansible_become_password: "123"
   tasks:
     - name: Pull CalculatorusingDevOps Image from Docker Hub
       docker_image:
