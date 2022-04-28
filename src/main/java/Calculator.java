@@ -88,7 +88,7 @@ public class Calculator {
                     break;
 
                 case 5:
-                    System.out.println("xxxxxxxxxxxxxxxxxxx Good Bye! xxxxxxxxxxxxxxxxxxx");
+                    System.out.println("xxxxxxxxxxxxxxxxxxx Good Bye! xxxxxxxxxxxxxxxxxx");
                     exit(0);
                 default:
                     System.out.println("Invalid choice entered! Please choose from the options 1 to 5 given above.");
